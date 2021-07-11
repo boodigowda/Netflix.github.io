@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: #000;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+#headerBlock{
+     position: relative;
+     z-index: 1;
+}
+
+#headerBlock article{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.logoBlock svg{
+    height: 45px;
+    width: 167px;
+    fill: #e50914;
+    line-height: normal;
+}
+
+.logoBlock{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.authBlock{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.authBlock ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.authBlock ul li a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #e50914;
+    letter-spacing: 1.2px;
+    padding: 8px 15px;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.sliderBock img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sliderBock{
+    margin-top: -100px;
+    background-image: url('../images/bgimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 52px 13px 500px 153px #111 inset;
+    border-bottom: 8px solid #222;
+}
+
+.sliderBock article{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sliderBock article h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+.sliderBock article h2{
+    padding: 20px 0;
+    font-weight: 400;
+}
+.sliderBock article p{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.sliderBock article .contentBlock{
+    width: 950px;
+}
+
+.sliderBock article .contentBlock form input{
+     height: 60px;
+    width: 50%;
+    outline: none;
+    font-size: 28px;
+    padding: 0 10px;
+}
+.sliderBock article .contentBlock form input::placeholder{
+    
+    font-size: 20px;
+}
+
+.sliderBock article .contentBlock footer form button{
+     height: 60px;
+    width: 29%;
+    border: none;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 27px;
+    outline: none;
+    text-transform: uppercase;
+    margin-left: -2px;
+}
+
+/* Enjoy Block */
+#enjoyBlock{
+    background-color: #000;
+    width: 100%;
+    height: 500px;
+    border-bottom: 8px solid #222;
+}
+#enjoyBlock article{
+    display: flex;
+    width: 80%;
+    height: 450px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+.enjoyLeftBlock{
+    width: 50%;
+}
+
+.enjoyLeftBlock h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.enjoyLeftBlock p{
+    font-size: 26px;
+}
+
+.enjoyRightBlock{
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.enjoyRightBlock .tv_image img{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.enjoyRightBlock .tv_video video{
+    position: absolute;
+    width: 73%;
+    top: 84px;
+    left: 71px;
+}
+/* ENJOY BLOCK ENDS HERE */
+
+#downloadBlock{
+    width: 100%;
+    background-color: #000;
+    height: 500px;
+    border-bottom: 8px solid #222;
+}
+#downloadBlock article{
+    display: flex;
+    height: 500px;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#downloadBlock article .downloadLeftBlock{
+    width: 50%;
+    position: relative;
+}
+
+#downloadBlock article .downloadLeftBlock .mbl img{
+    width: 90%;
+    height: 55%;
+}
+
+#downloadBlock article .downloadLeftBlock .strange{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #222;
+    border-radius: 10px;
+    width: 50%;
+    height: 80px;
+    position: absolute;
+    top: 290px;
+    left: 114px;
+    background-color: #000;
+}
+
+#downloadBlock article .downloadLeftBlock .strange img{
+    width: 20%;
+    padding: 5px;
+}
+
+#downloadBlock article .downloadLeftBlock .strange .text{
+    font-weight: bold;
+}
+#downloadBlock article .downloadLeftBlock .strange .text p:last-child{ 
+    color: blue;
+    font-weight:400;
+}
+#downloadBlock article .downloadRightBlock{
+    width: 50%;
+}
+
+#downloadBlock article .downloadRightBlock h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+#downloadBlock article .downloadRightBlock p{
+    font-size: 26px;
+}
+
+/* DOWNLOAD BLOCK ENDS HERE */
+
+/* WATCH BLOCK STARTS HERE */
+#watchBlock{
+    background-color: #000;
+    width: 100%;
+    height: 500px;
+    border-bottom: 8px solid #222;
+}
+
+#watchBlock article{
+    display: flex;
+    height: 500px;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#watchBlock article .watchLeftBlock{
+    width: 50%;
+}
+
+#watchBlock article .watchLeftBlock h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+#watchBlock article .watchLeftBlock p{
+    font-size: 26px;
+}
+
+#watchBlock article .watchRightBlock{
+    width: 50%;
+    position: relative;
+}
+
+#watchBlock article .watchRightBlock img{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    position: relative;
+    z-index: 1;
+}
+#watchBlock article .watchRightBlock video{
+    width: 53%;
+    position: absolute;
+    top: 95px;
+    left: 97px;
+}
+/* WATCH BLOCK ENDS HERE */
+
+/* FOOTER BLOCK STARTS HERE */
+
+#footer{
+    background-color: #000;
+    width: 100%;
+    height: 500px;
+}
+#footer footer{
+    width: 50%;
+    margin: 6% 15%;
+    height: 300px;
+    align-items: center;
+}
+
+#footer footer #call p{
+    font-size: 20px;
+    color: #757575;
+}
+
+#footer footer #call p a{
+    color: #757575;
+    text-decoration: none;
+}
+#footer footer #call p a:hover{
+    text-decoration: underline;
+}
+
+#footer footer #links{
+    width: 100%;
+    margin: 3% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer footer #links .com ul{
+  list-style-type: none;
+}
+
+#footer footer #links .com ul li{
+    margin: 18px 49px 0px 0px;
+    font-size: 14px;
+}
+
+
+#footer footer #links .com ul li a{
+  color: #757575;
+  text-decoration: none;
+}
+#footer footer #links .com ul li a:hover{
+  text-decoration: underline;
+}
+#footer footer #lang select option::backdrop{
+    content: '\e896';
+    color: white;
+}
+
+
+
+
+
+
